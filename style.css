@@ -1,0 +1,36 @@
+ul{list-style-type: none;}
+html, body,ul,li{
+    padding:0;margin:0;
+} 
+
+.wrap-all {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+.wrap-all .timer{
+    font-size:30px;
+    margin-bottom:20px;
+    color:#59729c;
+}
+
+.wrap-all .puzzle-img ul{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.wrap-all .puzzle-img li{
+    background:url("http://placeimg.com/400/400/any");
+    width:100px;
+    height:100px;
+}
+
+.wrap-all .btn-area button {
+    margin-top:10px;
+    padding:10px 20px;
+    background-color:#59729c;
+    cursor:pointer;
+    outline:none;
+}
