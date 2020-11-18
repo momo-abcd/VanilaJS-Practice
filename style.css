@@ -17,11 +17,11 @@ html, body,ul,li{
     color:#59729c;
 }
 
-.wrap-all .puzzle-img ul{
+.wrap-all .puzzle-game ul{
     display:grid;
     grid-template-columns: repeat(4,1fr);
 }
-.wrap-all .puzzle-img li{
+.wrap-all .puzzle-game li{
     background:url("http://placeimg.com/400/400/any");
     width:100px;
     height:100px;
@@ -33,4 +33,11 @@ html, body,ul,li{
     background-color:#59729c;
     cursor:pointer;
     outline:none;
+}
+.wrap-all p {
+    font-size:50px;
+    color:orange;
+    position: absolute;
+    text-shadow:1px 1px rgba(0,0,0,0.5);
+    display:none;
 }
